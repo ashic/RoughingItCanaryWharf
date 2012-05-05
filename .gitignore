@@ -1,6 +1,31 @@
-# Build Folders (you can keep bin if you'd like, to store dlls and pdbs)
-bin
 obj
-
-# mstest test results
-TestResults
+bin
+deploy
+deploy/*
+test-results/
+_ReSharper.*
+*.csproj.user
+*.resharper.user
+*.resharper
+*.suo
+*.cache
+*.userprefs
+*.pidb
+SolutionVersion.cs
+lib/MoMA/Reports/submit.xml
+build_output
+build_outputAnyCPU
+build_outputx86
+ReleaseBinaries
+code_drop
+TestResult.xml
+openlocal.sh
+openlocal.bat
+~$*
+Debug/
+Release/
+AutoTest.config
+AutoTest.config.old
+*_mm_cache.bin
+*~
+*.swp
