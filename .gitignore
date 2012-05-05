@@ -29,3 +29,5 @@ AutoTest.config.old
 *_mm_cache.bin
 *~
 *.swp
+packages/
+
