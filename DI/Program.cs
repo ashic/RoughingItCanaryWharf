@@ -14,7 +14,7 @@ namespace DI
 
         void RunDIDemo()
         {
-            ISayHello hello = new DIDemo(new ConsolePrinter()); //<- this is what you register in composition root
+            ISayHello hello = new DIDemo(new ConsolePrinter()); //<- this is what you resolve from your container
 
             //...
             hello.SayHello("John");
@@ -24,7 +24,7 @@ namespace DI
         {
             var clock = new UtcClock();
             var printer = new ConsolePrinterWithTime(clock, new ConsolePrinter());
-            ISayHello hello = new DIDemo(printer); //<- this is what you register in composition root
+            ISayHello hello = new DIDemo(printer); //<- this is what you resolve from your container
 
             //......
             hello.SayHello("Tim");
